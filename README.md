@@ -10,7 +10,8 @@ It is important to have 2 test which does not share the same Spring context
 Deadlock stacktrace is here: 
 
 
-> "Test worker@1622" prio=5 tid=0xe nid=NA waiting
+```
+"Test worker@1622" prio=5 tid=0xe nid=NA waiting
   java.lang.Thread.State: WAITING
 	 blocks task-2@9529
 	  at jdk.internal.misc.Unsafe.park(Unsafe.java:-1)
